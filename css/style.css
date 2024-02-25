@@ -208,7 +208,7 @@ ul {
 }
 
 .team-names {
-  padding: 32px 16px;
+  padding: 32px 0;
   width: 232px;
 }
 
@@ -224,7 +224,7 @@ ul {
 
 .third-section {
   background-color: #ffffff;
-  width: calc((100%-72px) / 4);
+  width: ((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -241,7 +241,7 @@ ul {
   color: #434455;
 }
 
-.portfolio {
+.fourth-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -270,6 +270,9 @@ ul {
   padding: 32px 16px;
   width: 360px;
   height: 120px;
+}
+
+.portfolio-list p {
   margin-bottom: 8px;
 }
 
