@@ -53,6 +53,7 @@ ul {
 
 .link {
   color: #434455;
+  padding: 24px 0;
 }
 
 .link:hover,
@@ -113,6 +114,7 @@ ul {
 
 .first-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
 .button {
@@ -124,10 +126,12 @@ ul {
   background-color: #4d5ae5;
   cursor: pointer;
   border-radius: 4px;
-  margin: 0, auto;
-  width: 169px;
+  margin: 0 auto;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  min-width: 169px;
+  border: none;
+  display: block;
 }
 
 .button:hover,
@@ -148,13 +152,24 @@ ul {
   overflow: hidden;
 }
 
+.second-section {
+  padding: 120px 0;
+}
+
 .section-goals {
   display: flex;
   justify-content: center;
   margin-top: 120px;
   margin-bottom: 120px;
   gap: 24px;
-  width: calc((1005-72px) / 4);
+}
+
+.header-goals {
+  margin-bottom: 8px;
+}
+
+.goals-list {
+  width: calc((100% - 72px) / 4);
 }
 
 .third-header {
@@ -181,8 +196,7 @@ ul {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team-list {
@@ -191,13 +205,11 @@ ul {
   border-radius: 0 0 4px 4px;
   padding: 0px 0px 32px 0px;
   width: 264px;
-  height: calc((100%-72px) / 4);
 }
 
 .team-names {
   padding: 32px 16px;
   width: 232px;
-  min-height: 56px;
 }
 
 .third-section h3 {
@@ -207,14 +219,18 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
+
 .third-section {
   background-color: #ffffff;
+  width: calc((100%-72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team {
   background-color: #f4f4fd;
-  min-height: 732px;
+  padding: 120px 0;
 }
 
 .third-section-text {
@@ -226,6 +242,11 @@ ul {
 }
 
 .portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.portfolio-header {
   display: flex;
   justify-content: center;
 }
@@ -239,6 +260,7 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 24px;
+  row-gap: 48px;
 }
 
 .portfolio-list {
@@ -248,6 +270,11 @@ ul {
   padding: 32px 16px;
   width: 360px;
   height: 120px;
+  margin-bottom: 8px;
+}
+
+portfolio-items {
+  width: calc((100% - 48px) / 3);
 }
 
 .footer-style {
@@ -257,6 +284,7 @@ ul {
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-text {
@@ -264,6 +292,7 @@ ul {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 
 .logo-element-white {
@@ -274,6 +303,11 @@ ul {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+}
+
+.footer-link {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 h1,
