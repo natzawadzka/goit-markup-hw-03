@@ -23,7 +23,6 @@ body {
   color: #4d5ae5;
   text-decoration: none;
   margin-right: 76px;
-  display: flex;
 }
 
 .logo-element {
@@ -95,7 +94,6 @@ ul {
 }
 
 .main {
-  display: flex;
   align-items: center;
   min-height: 600px;
 }
@@ -212,6 +210,10 @@ ul {
   width: 232px;
 }
 
+.team-names p {
+  margin-bottom: 8px;
+}
+
 .third-section h3 {
   font-weight: 500;
   font-size: 20px;
@@ -226,6 +228,7 @@ ul {
   background-color: #ffffff;
   width: ((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .our-team {
