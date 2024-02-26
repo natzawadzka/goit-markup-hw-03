@@ -210,10 +210,6 @@ ul {
   width: 232px;
 }
 
-.team-names p {
-  margin-bottom: 8px;
-}
-
 .third-section h3 {
   font-weight: 500;
   font-size: 20px;
@@ -226,7 +222,7 @@ ul {
 
 .third-section {
   background-color: #ffffff;
-  width: calc ((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -265,6 +261,10 @@ ul {
   row-gap: 48px;
 }
 
+.fourth-section-paragraph {
+  margin-bottom: 8px;
+}
+
 .portfolio-list {
   border-bottom: 1px solid #e7e9fc;
   border-left: 1px solid #e7e9fc;
@@ -272,10 +272,6 @@ ul {
   padding: 32px 16px;
   width: 360px;
   height: 120px;
-}
-
-.portfolio-list p {
-  margin-bottom: 8px;
 }
 
 portfolio-items {
